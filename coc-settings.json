@@ -1,0 +1,10 @@
+{
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 95,
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "javascript",
+        "markdown",
+        "typescript"
+    ]
+}
