@@ -32,14 +32,15 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdcommenter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'dikiaap/minimalist'
+Plug 'ayu-theme/ayu-vim'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'neoclide/jsonc.vim'
-Plug 'leafgarland/typescript-vim'
-Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'yuezk/vim-js'
 Plug 'tmsvg/pear-tree'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
 
@@ -66,7 +67,9 @@ let g:NERDSpaceDelims = 1
 " ---------------------------- MINIMALIST SETTINGS -----------------------------
 
 set t_Co=256
-colorscheme minimalist
+set termguicolors
+let ayucolor="dark"
+colorscheme ayu
 
 " ----------------------------- COC.NVIM SETTINGS ------------------------------
 

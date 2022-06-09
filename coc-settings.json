@@ -1,10 +1,17 @@
 {
     "prettier.tabWidth": 4,
     "prettier.printWidth": 95,
+    "pyright.enable": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "/Library/Frameworks/Python.framework/Versions/3.7/bin/autopep8",
+    "coc.preferences.formatOnType": true,
     "coc.preferences.formatOnSaveFiletypes": [
         "css",
+        "typescript",
         "javascript",
+        "jsx",
         "markdown",
-        "typescript"
+        "html"
     ]
 }
